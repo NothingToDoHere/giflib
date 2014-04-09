@@ -20,7 +20,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_gif_main);
 		animatedGifImageView = ((AnimatedGifImageView)findViewById(R.id.animatedGifImageView));
-		animatedGifImageView.setAnimatedGif(R.raw.animated_gif_big,
+		animatedGifImageView.setAnimatedGif(R.raw.animated_gif,
 				TYPE.FIT_CENTER);
 		((Button) findViewById(R.id.button1)).setOnClickListener(this);
 		switchMe = true;
