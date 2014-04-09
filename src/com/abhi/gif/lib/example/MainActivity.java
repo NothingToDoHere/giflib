@@ -30,7 +30,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	public void onClick(View v) {
 		if (!switchMe)
 			animatedGifImageView.setAnimatedGif(R.raw.animated_gif_big,
-					TYPE.FIT_CENTER);
+					TYPE.STREACH_TO_FIT);
 		else
 			animatedGifImageView.setImageResource(R.drawable.ic_launcher);
 		switchMe = !switchMe;
